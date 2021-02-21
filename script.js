@@ -52,7 +52,7 @@ webgazer
   })
   .begin()
 
-webgazer.showVideoPreview(false).showPredictionPoints(true)
+webgazer.showVideoPreview(true).showPredictionPoints(true)
 
 function getNewImage(next = false) {
   const img = document.createElement("img")
